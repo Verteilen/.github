@@ -2,15 +2,7 @@
 
 This is a tool which can manage tasks on multiple computers
 
-For User
-
 [Demo](https://verteilen.github.io/.github/)\
-[Utility Tool](./util/README.md)
-
-For Dev
-
-[Dev](./src/README.md)\
-[Build](./scripts/build.js)
 
 ## Screenshot
 
