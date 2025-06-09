@@ -2,7 +2,7 @@
 
 This is a tool which can manage tasks on multiple computers
 
-[Demo](https://verteilen.github.io/.github/)\
+[Demo](https://verteilen.github.io/.github/)
 
 ## Screenshot
 
