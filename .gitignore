@@ -1,0 +1,11 @@
+node_modules
+dist
+build
+log.json
+preference.json
+record.json
+.vscode
+.idea
+ply_tool/build
+ply_tool/dist
+ply_tool/exe/*.rar
