@@ -129,10 +129,9 @@ Added calculate node, you can include self\
 The property is like macro, in the process, it will replace text value\
 You can enter expression value here, so the text field value will not be that messy
 
-### Lua
+### JS VM
 
-You can write a Lua script in the job section\
-Lua has its function lib, more detail in [Here](./docs/Lua.md)
+You can write a Js VM script in the job section
 
 ### Monitor
 
@@ -143,30 +142,3 @@ Execute cronjob task\
 
 Execute cronjob task with multithread enable\
 ![Execute_Multiple](./docs/static/execute_multiple.gif)
-
-## Project Template
-
-- [Example](./docs/Example.md)
-- [GS4](./docs/GS4.md)
-
-## TODOs
-
-- [x] Task Data Structure
-- [x] Template Support
-- [x] Real-Time Monitor UI
-- [x] Cronjob Support
-- [x] Script Support
-- [x] Expression Support
-- [x] Docker Support
-- [x] Pure Compute Node Support
-- [x] Recover Record Support
-- [x] Multicore Support
-- [x] Condition Support
-- [x] Express Support
-- [ ] Express Auth Support
-- [ ] Group Support
-- [x] Node information Query
-- [x] Console control node support
-- [x] Self as node
-- [ ] Moving heavy load to backend
-- [x] Optimization for UI
