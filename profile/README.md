@@ -40,13 +40,13 @@ In [Release](https://github.com/Verteilen/Verteilen/releases) page, For windows 
 Here is the quick deploy for compute node docker container
 
 ```bash
-docker run --restart=always -p 12080:12080 -name compute_node0 e87870823/compute_tool_node
+docker run --restart=always -p 12080:12080 --name compute_node0 e87870823/compute_tool_node
 ```
 
 Here is the quick deploy for compute server docker container
 
 ```bash
-docker run --restart=always -p 11080:11080 -p 11777:11777 -name compute_server e87870823/compute_tool_server
+docker run --restart=always -p 11080:11080 -p 11777:11777 --name compute_server e87870823/compute_tool_server
 ```
 
 #### For Dev
