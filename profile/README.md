@@ -2,7 +2,7 @@
 
 This is a tool which can manage tasks on multiple computers
 
-[Demo](https://verteilen.github.io/.github/)
+[Documentation](https://verteilen.github.io/wiki/) | [Demo](https://verteilen.github.io/.github/)
 
 ## Screenshot
 
@@ -10,59 +10,6 @@ This is a tool which can manage tasks on multiple computers
 |-|-|-|
 |![P](./docs/static/server.jpg)|![Flow](./docs/static/flow.jpg)|![Para](./docs/static/parameter.jpg)|
 |![Lua](./docs/static/luaJob.jpg)|![commandJob](./docs/static/commanJob.jpg)|![pipeline](./docs/static/execution.jpg)|
-
-## Installation
-
-### Static Web
-
-Which you do not need to install anything, you can just click [here](https://elly2018.github.io/Compute-Tool/) to use it
-
-### Node Install
-
-> Install the nodejs module in the global for compute node
-
-```bash
-# use npm install the compute tool node
-npm install -g compute_tool_node
-# use command ctn to start the client
-ctn
-```
-
-
-### Desktop App
-
-In [Release](https://github.com/Verteilen/Verteilen/releases) page, For windows user click .msi installation file, for linux user click .deb installation file
-
-### Docker Install
-
-#### For User
-
-Here is the quick deploy for compute node docker container
-
-```bash
-docker run --restart=always -p 12080:12080 --name compute_node0 e87870823/compute_tool_node
-```
-
-Here is the quick deploy for compute server docker container
-
-```bash
-docker run --restart=always -p 11080:11080 -p 11777:11777 --name compute_server e87870823/compute_tool_server
-```
-
-#### For Dev
-
-```bash
-# for compute node complete build
-npm run docker:node
-# You can build it youself then copy the only result into docker image
-# This way is faster
-npm run build:node
-npm run docker:node-f
-# Same for server
-npm run docker:server
-npm run build:server
-npm run docker:server-f
-```
 
 ## Features
 
