@@ -22,6 +22,7 @@ The checklist features for each type of build
 |Mode Selection|✓||||
 |Script|✓|✓|✓||
 |Authentication|||✓||
+|Plugin|✓||✓||
 
 
 ### Task Management
