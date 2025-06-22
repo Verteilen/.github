@@ -2,7 +2,7 @@
 
 This is a tool which can manage tasks on multiple computers
 
-[Documentation](https://verteilen.github.io/wiki/) | [Demo](https://verteilen.github.io/.github/) | [Plugin Example](https://github.com/Verteilen/FFmpeg-Plugin)
+[Documentation](https://verteilen.github.io/wiki/) | [Demo](https://verteilen.github.io/.github/) | [Plugin Example](https://github.com/Verteilen/FFmpeg-Plugin) | [Template Example](https://github.com/Verteilen/Template-FFmpeg)
 
 ## Screenshot
 
